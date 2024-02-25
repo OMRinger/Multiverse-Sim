@@ -35,4 +35,4 @@ pip install qiskit
 We welcome contributions from the community, whether it's adding new simulation modules, enhancing existing ones, or providing educational content. Please see `community.py` for how to contribute.
 
 ## License
-This project is open-source and available under the MIT license.
+This project is open-source and available under the GEN license.
