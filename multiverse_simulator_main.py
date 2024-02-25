@@ -40,3 +40,19 @@ def main():
 
 if __name__ == '__main__':
     main()
+from multiverse_simulator import dimensional_gateway_simulation, consciousness_simulation, cosmic_civilization_development, inter_universe_communication
+
+def main():
+    print("Multiverse Creation Lab - Main Menu")
+    options = {
+        "1": dimensional_gateway_simulation,
+        "2": lambda: consciousness_simulation({"temperature": "moderate", "chemistry": "carbon-based"}),
+        "3": lambda: cosmic_civilization_development(["Discover Fire", "Invent the Wheel", "Develop AI"]),
+        "4": lambda: inter_universe_communication("Universe-1", "Universe-42"),
+    }
+    choice = input("Select a module to explore (1-4): ")
+    action = options.get(choice, lambda: print("Invalid option."))
+    action()
+
+if __name__ == "__main__":
+    main()
